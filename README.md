@@ -1,6 +1,6 @@
-# 🎬 MovieFlix
+# 🎬 Filmey
 
-**MovieFlix** is a movie browsing web app built with **React** and powered by the **OMDb API**. Users can search for thousands of movies and get detailed information instantly.
+**Filmey** is a movie browsing web app built with **React** and powered by the **OMDb API**. Users can search for thousands of movies and get detailed information instantly.
 
 ## 🌐 Live Demo
 
@@ -8,7 +8,7 @@
 
 ## screenshot 
 
-![Screenshot of MovieFlix search results](./public/image.png)  
+![Screenshot of Filmey search results](./public/image.png)  
 
 ![screenshot of Filmey main page](./public/image-1.png)
 
