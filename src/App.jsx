@@ -3,7 +3,6 @@ import './App.css';
 import Search from './components/Search';
 import Spinner from './components/spinner';
 import MovieCard from './components/MovieCard';
-import { updateSearchCount } from './appwrite';
 
 const API_BASE_URL = "https://www.omdbapi.com/";
 const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
@@ -61,13 +60,7 @@ const App = () => {
       );
 
       setMovieList(detailedMovies);
-      
-      if (query && detailedMovies.length > 0) 
-        {
-          await updateSearchCount(query, detailedMovies[0]);
-        }
-
-
+     
     } catch (error) {
       console.error(`Error Fetching movies: ${error}`);
       setErrorMessage('Error fetching Movies. Please try again later.');
